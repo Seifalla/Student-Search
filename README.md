@@ -1,9 +1,11 @@
 # Student-Search
 
-# Program Running Instruction:
-This program runs on Linux 4.4.0-34-generic x86_64 (DMB 005)
+# Program Running Instructions:
+- This program runs on Linux 4.4.0-34-generic x86_64 (DMB 005)
 
-Use g++ to compile
+- Use g++ to compile
+
+- All files must be in the same directory
 
 This C++ program does the following:
 The files sec1students.txt and sec2students.txt contain information about students for daytime section (section 1) and evening section (section 2) respectively. They have the same format (one line per student): 
@@ -57,7 +59,6 @@ Section: evening
 
 is not taking any course
 
-Check for file open errors. You can terminate the program when the first open error occurs. For example, if the studentcourses.txt file cannot be opened, the program will display (then quit the program):
+The program checks for file open errors. It terminates when the first open error occurs. For example, if the studentcourses.txt file cannot be opened, the program will display (then quit the program):
 studentcourses.txt file cannot be opened! 
-Do not use any directory names in your program. The sec1students.txt, sec2students.txt and studentcourses.txt files are in the current working directory. The C++ program must compile and execute from your current working directory.
 
